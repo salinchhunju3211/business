@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HajurKOJutta</title>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="image 1.jpg" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#limited-offer">Limited Offer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container mt-5">
+    <h2>Welcome to HajurKOJutta</h2>
+    <p>Find the perfect pair of shoes for every occasion.</p>
+    <form id="shoeForm" class="mt-4">
+      <div class="form-group">
+        <label for="shoeType">Shoe Type</label>
+        <select class="form-control" id="shoeType">
+          <option value="casual">Casual</option>
+          <option value="running">Running</option>
+          <option value="formal">Formal</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="shoeSize">Shoe Size</label>
+        <input type="number" class="form-control" id="shoeSize" placeholder="Enter your shoe size">
+      </div>
+      <button type="submit" class="btn btn-primary">Find Shoes</button>
+    </form>
+
+
+    <div id="shoeResults" class="mt-5"></div>
+  </div>
+  <div class="hero-section mt-5">
+    <div class="hero-section-overlay"></div>
+    <div class="container hero-section-content">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <h1 class="mb-4">Step into Style with HajurKOJutta</h1>
+          <p class="mb-5">Elevate Your Look with Our Exclusive Collection of Handcrafted Shoes</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="./img/air.png" class="card-img-top" alt="Image 1">
+            <div class="card-body">
+              <h5 class="card-title">Quality Craftsmanship</h5>
+              <p class="card-text">Each pair meticulously crafted with attention to detail. <br> <b>Price:$200</b></p>
+              <a href="#" class="btn btn-primary btn-buy"  data-toggle="modal" data-target="#paymentModal">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="./img/blazer.png" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Unmatched Comfort</h5>
+              <p class="card-text">Experience all-day comfort without compromising on style. <br> <b>Price:$400</b></p>
+              <a href="#" class="btn btn-primary btn-buy"  data-toggle="modal" data-target="#paymentModal">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="./img/crater.png" class="card-img-top" alt="Image 3">
+            <div class="card-body">
+              <h5 class="card-title">Versatile Designs</h5>
+              <p class="card-text">From formal occasions to casual outings, we have the perfect pair for every moment. <br> <b>Price:$100</b>
+              </p>
+              <a href="#" class="btn btn-primary btn-buy"  data-toggle="modal" data-target="#paymentModal">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="./img/air2.png" class="card-img-top" alt="Image 4">
+            <div class="card-body">
+              <h5 class="card-title">Stylish Collection</h5>
+              <p class="card-text">Explore our latest collection and stay ahead of the trend.
+                <br><b>Price:$800</b>
+              </p>
+              <a href="#" class="btn btn-primary btn-buy"  data-toggle="modal" data-target="#paymentModal">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="./img/images.webp" class="card-img-top" alt="Image 5">
+            <div class="card-body">
+              <h5 class="card-title">Classic Elegance</h5>
+              <p class="card-text">Discover timeless designs that never go out of style.
+                <br><b>Price:$85</b>
+              </p>
+              <a href="#" class="btn btn-primary btn-buy"  data-toggle="modal" data-target="#paymentModal">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="img/hippie2.png" class="card-img-top" alt="Image 6">
+            <div class="card-body">
+              <h5 class="card-title">Sporty Vibes</h5>
+              <p class="card-text">Get active in style with our sporty footwear collection.
+                <br><b>Price:$150</b>
+              </p>
+              <a href="#" class="btn btn-primary btn-buy"  data-toggle="modal" data-target="#paymentModal">Buy Now</a>
+            </div>
+          </div>
+      </div>
+      <div class="modal fade" id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="paymentModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="paymentModalLabel">Payment Section</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="cardNumber">Card Number</label>
+                  <input type="text" class="form-control" id="cardNumber" placeholder="Enter card number">
+                </div>
+                <div class="form-group">
+                  <label for="expirationDate">Expiration Date</label>
+                  <input type="text" class="form-control" id="expirationDate" placeholder="MM/YY">
+                </div>
+                <div class="form-group">
+                  <label for="cvv">CVV</label>
+                  <input type="text" class="form-control" id="cvv" placeholder="Enter CVV">
+                </div>
+                <button type="submit" class="btn btn-primary" >Pay Now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  </section>
+  <section class="limited-offer-section">
+    <div class="container" id="limited-offer">
+      <h2>Limited Time Offer</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 mb-4">
+          <div class="card offer-card">
+            <div class="card-body">
+              <h5 class="offer-title">Special Deal</h5>
+              <img src="./img/img1.avif" class="img-fluid" alt="offer">
+              <p class="offer-description">Get 20% off on selected items</p>
+              <p class="offer-price">$99.99 <span class="text-muted">($125.00)</span></p>
+              <a href="#" class="btn btn-primary btn-buy"  data-toggle="modal" data-target="#paymentModal">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card offer-card">
+            <div class="card-body">
+              <h5 class="offer-title">Limited Stock</h5>
+              <img src="./img/img2.webp" class="img-fluid" alt="offer">
+              <p class="offer-description">Grab your favorite pairs before they're gone</p>
+              <p class="offer-price">$49.99 <span class="text-muted">($65.00)</span></p>
+              <a href="#" class="btn btn-primary btn-buy"  data-toggle="modal" data-target="#paymentModal">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card offer-card">
+            <div class="card-body">
+              <h5 class="offer-title">Exclusive Offer</h5>
+              <img src="./img/img3.jpg" class="img-fluid" alt="offer">
+              <p class="offer-description">Unlock VIP access and enjoy additional discounts</p>
+              <p class="offer-price">$149.99 <span class="text-muted">($200.00)</span></p>
+              <a href="#" class="btn btn-primary btn-buy"  data-toggle="modal" data-target="#paymentModal">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="user-reviews-section">
+    <div class="container">
+      <h2 class="text-center pb-3 "><b>User Reviews</b></h2>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card review-card">
+            <div class="card-body">
+              <div class="review-rating">
+                ★★★★★ 
+              </div>
+              <p class="review-text">"These shoes are amazing! Comfortable, stylish, and durable. Highly recommend!"</p>
+              <p class="review-author">- John Doe</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card review-card">
+            <div class="card-body">
+              <div class="review-rating">
+                ★★★★☆ 
+              </div>
+              <p class="review-text">"Great value for money. Excellent quality and fast shipping!"</p>
+              <p class="review-author">- Jane Smith</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card review-card">
+            <div class="card-body">
+              <div class="review-rating">
+                ★★★☆☆ 
+              </div>
+              <p class="review-text">"Nice shoes but the sizing runs a bit small. Consider ordering a size up."</p>
+              <p class="review-author">- Alex Johnson</p>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+  <section class="about-us-section">
+    <div class="container" id="about-us">
+      <h2>About Us</h2>
+      <div class="about-us-content">
+        <p>Contact us via email, phone, or visit us in-store. Our friendly team is ready to assist you with any inquiries you may have.
+<br>
+          Let's connect today!</p>
+        <ul class="contact-details">
+          <li><strong>Address:</strong> Bhaktapur, Nepal</li>
+          <li><strong>Email:</strong> chhunjusalin007@gmail.com</li>
+          <li><strong>Phone:</strong>123-4567</li>
+          <li><strong>Hours:</strong> Monday - Friday, 9:00 AM - 5:00 PM</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="contact-section">
+    <div class="container" id="contact-us">
+      <h2 class="text-white">Contact Us</h2>
+      <p  class="text-warning">We'd love to hear from you. Send us a message!</p>
+      <div class="contact-form">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Your Email">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-send">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          
+          <img src="image 1.jpg" alt="Company Logo" class="footer-logo">
+        </div>
+        <div class="col-6">
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+            <div class="text-right">
+            <h5>Contact Us</h5>
+            <p class="footer-contact">Bhaktapur, Nepal</p>
+            <p class="footer-contact">chhunjusalin@gmail.com</p>
+            <p class="footer-contact"> 123-4567</p>
+          </div>
+       
+      </div>
+    </div>
+  </footer>
+ 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="js.js"></script>
+</body>
+
+</html>

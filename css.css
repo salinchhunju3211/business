@@ -1,0 +1,233 @@
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #343a40 !important;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  #shoeResults {
+    display: none;
+  }
+  .hero-section {
+    position: relative;
+    text-align: center;
+    background-color: azure;
+    color: #fff;
+    padding: 100px 0;
+    background-image: url(img/jordan.png); 
+    background-size: cover;
+    background-position: center;
+   
+  }
+  .hero-section-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .hero-section-content {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 1; 
+  }
+  .hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .content-section {
+    padding: 80px 0;
+    background-color: #f8f9fa; 
+  }
+  .card {
+    border: none; 
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+  }
+  .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    flex: 1; 
+  }
+  .card-body {
+    text-align: center;
+    flex: 1; 
+  }
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .card-text {
+    font-size: 16px;
+  }
+  .btn-buy {
+    margin-top: auto;
+    width: 100%; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .content-section
+  {
+    background-color: rgb(166, 196, 186);
+  }
+  .limited-offer-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  .offer-card {
+    border: none; 
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+  }
+  .offer-card .card-body {
+    padding: 30px;
+  }
+  .offer-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .offer-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .offer-price {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .btn-offer {
+    font-size: 18px;
+    padding: 15px 40px;
+    border-radius: 30px;
+  }
+  .user-reviews-section {
+    padding: 80px 0;
+    background-image: url(img/back.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .review-card {
+    border: none; 
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+  }
+  .review-card .card-body {
+    padding: 30px;
+  }
+  .review-rating {
+    font-size: 24px;
+    color: #ffc107; 
+    margin-bottom: 15px;
+  }
+  .review-text {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .review-author {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .content-section{
+    background-color: rgb(189, 189, 189);
+  }
+  .user-reviews-section h2{
+    font-size: 80px;
+    color: gray;
+  }
+  .contact-section {
+    padding: 80px 0;
+    text-align: center;
+    background-image: url(img/backg.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-control {
+    border-radius: 30px;
+  }
+  .form-control:focus {
+    box-shadow: none;
+  }
+  .btn-send {
+    border-radius: 30px;
+  }
+  .about-us-section {
+    padding: 80px 0;
+    background-color: #f8f9fa; 
+    text-align: center;
+  }
+  .about-us-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .contact-details {
+    list-style: none;
+    padding: 0;
+  }
+  .contact-details li {
+    margin-bottom: 10px;
+  }
+.contact-section  h2{
+  font-size: 70px;
+}
+.contact-section p{
+  font-size: 30px;
+}
+.footer-section {
+  background-color: #343a40; 
+  color: #ffffff;
+  padding: 50px 0;
+}
+.footer-logo {
+  margin-bottom: 20px;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex; 
+  justify-content: space-evenly; 
+}
+.footer-links li {
+  margin-bottom: 10px;
+}
+.footer-links li a {
+  color: #ffffff; 
+}
+.footer-links li a:hover {
+  color: #bbbbbb; 
+}
+.footer-contact {
+  font-size: 14px;
+  text-align: right; 
+}
